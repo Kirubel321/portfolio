@@ -709,9 +709,10 @@ to {
 }
 .SkillBar {
   width: 90%;
-  height: 30px;
+  height: 10px;
   position: relative;
   border-radius:20px;
-  background: var(--secondaryColor);
+  background-color: rgb(196, 223, 244);
   margin: 20px auto;
+  padding-left: 0;
 }
