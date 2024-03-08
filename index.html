@@ -512,7 +512,11 @@
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-              <form action="" method="get">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                
+                    <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="9020c86c-6b0a-41c5-995d-8c4d77fc2ea6">
+
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
@@ -525,6 +529,8 @@
                   <div class="col-12">
                     <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
+                    <!-- hCaptcha Spam Protection -->
+                  <div class="h-captcha" data-captcha="true"></div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
                     <input type="submit" class="form-control submit-btn" value="Send Button">
