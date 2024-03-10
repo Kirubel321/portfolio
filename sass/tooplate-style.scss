@@ -325,10 +325,6 @@ b, strong {
   }
 }
 
-.about_img, .about-text, .footer, .about {
-	z-index: -1;
-}
-
 .dark-mode {
 	background: $dark-mode-color;
 	.navbar-light .navbar-nav .nav-link {
@@ -352,15 +348,6 @@ b, strong {
 	h1, h2, h3, h4, h5, h6,
 	.color-mode {
 		color: $text-white;
-	}
-
-	.about{
-		background: $dark-mode-color;
-		color: rgba(255,255,255,0.8);
-	}
-	.footer{
-		background: $dark-mode-color;
-		color: rgba(255,255,255,0.8);
 	}
 	.owl-carousel {
 		.owl-nav button.owl-next,
