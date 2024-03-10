@@ -325,6 +325,10 @@ b, strong {
   }
 }
 
+.about_img, .about-text{
+	z-index: -1;
+}
+
 .dark-mode {
 	background: $dark-mode-color;
 	.navbar-light .navbar-nav .nav-link {
